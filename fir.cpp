@@ -13,7 +13,7 @@ int main()
 {
     cout<<"Enter h:" << endl; //tree height
     cin >> h;
-    fil(h);
+    fir(h);
     return 0;
 }
 
