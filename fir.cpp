@@ -7,17 +7,17 @@ using namespace std;
 int h;
 int k = 0;
 int t = 2;
-void fil(int h);
+void fir(int h);
 
 int main()
 {
-    cout<<"Enter h:" << endl;
+    cout<<"Enter h:" << endl; //tree height
     cin >> h;
     fil(h);
     return 0;
 }
 
-void fil(int h){
+void fir(int h){
     while(k<h-1){
         cout << " ";
         k++;
