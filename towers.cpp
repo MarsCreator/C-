@@ -1,3 +1,7 @@
+/*After entering the number of cubes you need to find the maximum possible height of the two towers of the same height. 
+(Each cube has its own height)*/
+
+
 #include <iostream>
 #include <vector>
 #include <cstdlib>
