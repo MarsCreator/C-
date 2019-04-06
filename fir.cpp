@@ -10,14 +10,14 @@
 
 using namespace std;
 
-int h;
+int h;                                                     //tree height
 int k = 0;
 int t = 2;
 void fir(int h);
 
 int main()
 {
-    cout<<"Enter h:" << endl; //tree height
+    cout<<"Enter the height of the tree:" << endl; 
     cin >> h;
     fir(h);
     return 0;
